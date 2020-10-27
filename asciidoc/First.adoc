@@ -1,0 +1,76 @@
+문단은 빈줄로 구분됩니다. 빈줄이 없이 쓰여진 문장은 하나의 문단으로 인식 되어 이어 써집니다.
+
+다음 과 같이 작성된 문장은
+
+``` code
+This journey begins one late Monday afternoon in Antwerp.
+Our team desperately needs coffee, but none of us dare open the office door.
+
+To leave means code dismemberment and certain death.
+```
+
+다음 처럼 이어진 문장으로 만들어집니다.
+
+문단 안에서도 줄바꿈을 쓰고 싶을때가 있습니다. 줄끝에 +
+를 붙이면 줄바꿈이 됩니다.
+
+NOTE: 참고하고 하세요
+
+TIP: 팁입니다.
+
+IMPORTANT: 중요합니다.
+
+CAUTION: 주의 하세요.
+
+WARNING: 위험합니다.
+
+
+1.목록
+--- 
+---
+(Max 5개)
+
+* 목록
+** 중첩목록
+*** 중첩중첩목록
+**** 4단계목록
+**** 4단계목록2
+***** 마지막 목록
+
+
+Table.
+//- table1 [cols=2*]
+//- table2 [cols=2*,options=header]
+//- table3 [%header, cols=2*]
+[%header, cols=2*]
+|===
+|FireFox
+|Web Browser
+
+|Ruby
+|Programming Language
+
+|TorqueBox
+|Application Server
+|===
+
+
+asciidoc in Table
+[cols="2,3,5a"]
+|===
+|Name |Group |Description
+
+|Firefox
+|Web Browser
+|Mozilla Firefox is an open-source web browser.
+It's designed for:
+
+* standards compliance,
+* performance and
+* portability.
+
+|Ruby
+|Programming Language
+|A programmer's best friend.
+
+|===
